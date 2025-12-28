@@ -1,2 +1,2 @@
 # keodotcomputer.github.io
-A Mythical Africana Computer
+A Mythical Africana Webputer
