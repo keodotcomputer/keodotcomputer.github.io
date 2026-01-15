@@ -1,4 +1,9 @@
 /* Dark-theme first stylesheet for Keo landing page */
+@font-face{
+  font-family:"LightPixel";
+  src:url("fonts/light_pixel-7.ttf") format("truetype");
+}
+
 :root{
   --bg:#0b0f12;
   --surface:#0f1417;
@@ -55,14 +60,14 @@ body{
 .hero{padding:5.25rem 0 3rem}
 .hero-inner{display:grid;grid-template-columns:240px 1fr;gap:1.5rem;align-items:center}
 .hero-image img{width:100%;height:auto;display:block;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.3)}
-.hero-title{font-size:2.25rem;margin:0 0 0.5rem}
+.hero-title{font-size:2.25rem;margin:0 0 0.5rem;font-family:"LightPixel",ui-sans-serif,system-ui}
 .lead{color:var(--muted);max-width:65ch}
 
 .btn{display:inline-block;padding:0.6rem 1rem;border-radius:10px;text-decoration:none;color:var(--text);border:1px solid var(--glass);background:transparent}
 .btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#042014;border:none}
 
 .section{padding:2.25rem 0;border-top:1px solid var(--glass)}
-.section h2{margin-top:0}
+.section h2{margin-top:0;font-family:"LightPixel",ui-sans-serif,system-ui}
 
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
 .card{background:var(--surface);padding:1rem;border-radius:var(--radius);box-shadow:0 6px 18px rgba(0,0,0,0.3)}
