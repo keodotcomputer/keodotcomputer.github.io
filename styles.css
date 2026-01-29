@@ -95,6 +95,12 @@ body{
   .container{padding:0 1.5rem}
 }
 
+@media (max-width:600px) and (max-height:500px){
+  body{margin:1rem}
+  .container{padding:0 1rem}
+  .hero{padding:2rem 0}
+}
+
 /* Utility */
 .socials a{color:var(--muted);text-decoration:none}
 
