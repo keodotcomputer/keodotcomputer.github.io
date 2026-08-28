@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="Keo - A Mythical Africana Webputer" />
+	<title>keo 🎀</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="media/keo_mascot.png" type="image/png">
+</head>
+<body>
+	<header class="site-header">
+		<nav class="nav container">
+			<a class="brand" href="#">keo webputer 🎀</a>
+			<button class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+		</nav>
+	</header>
+
+	<main>
+		<div class="service-banner-wrap container">
+			<div class="service-banner">
+				<div class="service-banner-body">
+					<div class="service-banner-mascot">
+						<img src="media/keo_mascot.png" alt="Keo mascot">
+					</div>
+					<div class="service-banner-content">
+						<div class="service-banner-title">New Website Underconstruction</div>
+						<div class="service-banner-message">
+							We are working on a new 
+							version of our website.
+							Please check back
+							at a later time.
+						</div>
+					</div>
+					<div class="service-banner-cone">
+						<img src="media/cone.png" alt="Construction cone">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section id="contact" class="section container">
+			<h2 style="color: #b82a4b;">Has the new website landed yet?</h2>
+
+			<div class="contact-grid">
+				<div>
+					<form id="newsletter-form" class="newsletter-form" action="https://formspree.io/f/xaqyrpoj" method="POST" novalidate>
+						<div class="field-row">
+							<input id="email" name="email" type="email" placeholder="your@email.com" required autocomplete="email">
+							<button class="btn primary" type="submit" style="background: #21c697; border: none;">Find out</button>
+						</div>
+						<input type="hidden" name="_subject" value="New newsletter signup">
+						<p id="newsletter-msg" class="newsletter-msg" aria-live="polite"></p>
+					</form>
+					<p>Say <a href="mailto:keodotcomputer@proton.me" style="color: #098663;">hello</a>.</p>
+
+					<aside>
+						<p class="muted" style="color: #b82a4b;">Find us on</p>
+						<ul class="socials-list" role="list">
+							<li><a href="https://bsky.app/profile/keo.computer" target="_blank" aria-label="Bluesky"><span class="social-icon" aria-hidden="true"><img src="media/bluesky.svg" alt=""></span>Bluesky</a></li>
+							<li><a href="https://instagram.com/keodotcomputer" target="_blank" aria-label="Instagram"><span class="social-icon social-icon-lg" aria-hidden="true"><img src="media/instagram.png" alt=""></span>Instagram</a></li>
+							<li><a href="https://www.threads.net/@keodotcomputer" target="_blank" aria-label="Threads"><span class="social-icon social-icon-sm" aria-hidden="true"><img class="icon-light" src="media/threads-black.png" alt=""><img class="icon-dark" src="media/threads-white.png" alt=""></span>Threads</a></li>
+							<li><a href="https://bsky.app/profile/keo.computer" target="_blank" aria-label="Discord"><span class="social-icon" aria-hidden="true"><img src="media/discord.svg" alt=""></span>Discord (DM for invite)</a></li>
+							<li><a href="https://github.com/keodotcomputer" target="_blank" aria-label="GitHub"><span class="social-icon social-icon-md" aria-hidden="true"><img src="media/github.png" alt=""></span>GitHub</a></li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<img src="media/Cc_by-sa_4.svg" alt="Creative Commons Attribution-ShareAlike 4.0" class="footer-license">
+			<div>🄯 <span id="year"></span> Keo — A People's Webputer.</div>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
